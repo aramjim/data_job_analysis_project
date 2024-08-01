@@ -8,7 +8,7 @@ Question: What are the top-paying data analyst jobs?
 
 SELECT 
     job_id,
-    name, -- From company_dim table
+    name AS company_name, -- From company_dim table
     job_title,
     job_location,
     job_schedule_type,

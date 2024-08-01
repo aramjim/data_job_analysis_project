@@ -31,7 +31,7 @@ FROM
     INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY
     salary_year_avg DESC;  /* With this results it would be better of using an 
-                            analytical tool (by extracting info as CSV) */
+                            analytical tool such as BI, Tableau (by extracting info as CSV) */
 
 /* Analytical Insights: 
 
@@ -56,7 +56,8 @@ with SQL, Python, and Tableau leading the pack. */
 
 
 
-/* Results as JNSON
+/* Results as JSON
+
 [
   {
     "job_id": 552322,
