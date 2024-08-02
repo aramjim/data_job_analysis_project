@@ -30,8 +30,7 @@ FROM
     INNER JOIN skills_job_dim ON top_paying_jobs.job_id = skills_job_dim.job_id
     INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY
-    salary_year_avg DESC;  /* With this results it would be better of using an 
-                            analytical tool such as BI, Tableau (by extracting info as CSV) */
+    salary_year_avg DESC;  
 
 /* Analytical Insights: 
 
